@@ -1,7 +1,17 @@
-"use scrict";
-//const category = "toys";
+"use srict";
+console.log('arr' + '- object');
+console.log(4 + '5');
 
-//console.log(`https://someurl.com/${category}/5`);
+let incr = 10,
+    decr = 10;
+//++incr;
+//--decr;
+console.log(incr++, decr--);
+console.log(incr, decr);
+console.log(5%2);
+console.log(2 + 2 * 2 != 8);
 
-const user = "Ivan";
-alert(`Привет, ${user}`);
+
+const isChecked = false,
+      isClose = false;
+console.log(isChecked || !isClose);
